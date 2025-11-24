@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Coastal Cab",
+    "slug": "coastal_cab",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/coastal_cab_logo.png",
+    "scheme": "coastalcab",
+    "userInterfaceStyle": "light",
+
+    "cli": {
+      "appVersionSource": "local"
+    },
+
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/coastal_cab_logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.skalal.coastal_cab"
+    },
+
+    "web": {
+      "favicon": "./assets/images/coastal_cab_logo.png"
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "a1954bf5-a3ec-488d-808b-3caf0d968ad9"
+      }
+    }
+  }
+}
